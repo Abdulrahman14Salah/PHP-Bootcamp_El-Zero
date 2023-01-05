@@ -1,7 +1,7 @@
 <?php
 
-/*
-My Application
-Version 1.0
-Created By Elzero
- */
+$a = 200;
+$b = &$a;
+$a = 100;
+
+echo $b; // 100

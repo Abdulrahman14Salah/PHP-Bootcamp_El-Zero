@@ -1,5 +1,10 @@
 <?php
 
-// echo 'Prevent Me From Running Please';
-/* echo 'Prevent Me From Running Please'; */
-# echo 'Prevent Me From Running Please';
+$name = "elzero";
+$$name = "Web";
+$$$name = $$name;
+echo $elzero;
+echo $$name;
+echo $$$name;
+echo "${$name}";
+
