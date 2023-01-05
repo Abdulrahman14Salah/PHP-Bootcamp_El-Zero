@@ -1,8 +1,13 @@
 <?php
-echo (int) (15.2 + 14.7 + (10.5 + 10.5)); // 50
- ?>
+echo nl2br(
+    <<<'break'
+    Hello "'Elzero'"
+    We Love $Programming$
+    Languages Specially "PHP"
+    break
+);
 
-<br>
-
-<?php
-echo gettype((int) (15.2 + 14.7 + (10.5 + 10.5))); // Integer
+// Needed Output
+// Hello "'Elzero'"
+// We Love $Programming$
+// Languages Specially "PHP"
