@@ -1,6 +1,5 @@
 <?php
-echo __DIR__;
-echo "<br>";
+echo  "<div>" . __LINE__ . "</div>";
 echo __FILE__;
 echo "<br>";
-echo __LINE__;
+echo __DIR__;
