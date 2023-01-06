@@ -1,6 +1,5 @@
 <?php
 
-
 // Code 1
 @$a = $b or die("Custom Error Variable");
 
