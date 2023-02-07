@@ -1,8 +1,7 @@
 <?php
 
-function calculate(int $num_one, int $num_two)
+function calculate(int $num_one, int $num_two): float
 {
-    $num_one = (float) $num_one;
     return $num_one + $num_two;
 }
 
